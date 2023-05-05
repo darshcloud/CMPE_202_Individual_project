@@ -12,12 +12,17 @@ public class VerifyVisaCC implements CreditCardHandler {
 
 	@Override
 	public String verifyCard(String creditCardNumber) {
-		if (creditCardNumber.matches("^4(\\\\d{12}|\\\\d{15})$")) {
+		/*
+		 * char first= creditCardNumber.charAt(0); if(first=='4' &&
+		 * (creditCardNumber.length()==13||creditCardNumber.length()==16)) return
+		 * "Visa"; else return nextCard.verifyCard(creditCardNumber);
+		 */
+		
+		if (creditCardNumber.matches("^4[0-9]{12}(?:[0-9]{3})?$")) {
 			return "Visa";
 		} else {
 			return nextCard.verifyCard(creditCardNumber);
 		}
-
 	}
 
 }
