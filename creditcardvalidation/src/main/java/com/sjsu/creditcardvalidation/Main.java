@@ -9,7 +9,11 @@ public class Main {
 		String inputFile, outputFile, inputExtension, outputExtension;
 		inputFile = "";
 		outputFile = "";
-		if (args.length == 2) {
+		if (args.length != 2) {
+	        System.out.println("Please provide both input file name and output file name");
+	        System.exit(0);
+	    }
+		else {
 			inputFile = args[0];
 			outputFile = args[1];
 			inputExtension = inputFile.substring(inputFile.indexOf("."));
