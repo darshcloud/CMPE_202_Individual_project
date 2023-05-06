@@ -1,0 +1,63 @@
+{
+    "cards": [ {
+    "CardNumber": "5567894523129089",
+    "Type": "MasterCard" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "59012345678901234567890",
+    "Type": "Invalid" ,
+    "Message": "Invalid: more than 19 digits"
+ },
+ {
+    "CardNumber": "4123456789123",
+    "Type": "Visa" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "347856341908126",
+    "Type": "AmericanExpress" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "6011111100007756",
+    "Type": "Discover" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "3601112345678789",
+    "Type": "invalid" ,
+    "Message": "Invalid: Not a possible card number"
+ },
+ {
+    "CardNumber": "5167894523129089",
+    "Type": "MasterCard" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "4123456789123999",
+    "Type": "Visa" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "377856341908126",
+    "Type": "AmericanExpress" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "5367894523129089",
+    "Type": "MasterCard" ,
+    "Message": "Valid"
+ },
+ {
+    "CardNumber": "6011*890HJrt6789",
+    "Type": "Invalid" ,
+    "Message": "Invalid: non numeric characters"
+ },
+ {
+    "CardNumber": "null",
+    "Type": "Invalid" ,
+    "Message": "Invalid: empty/null card number"
+ }
+]
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><CARDS>
+  <CARD>
+    <CARD_NUMBER>5567894523129089</CARD_NUMBER>
+    <CARD_TYPE>MasterCard</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>59012345678901234567890</CARD_NUMBER>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: more than 19 digits</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>4123456789123</CARD_NUMBER>
+    <CARD_TYPE>Visa</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>347856341908126</CARD_NUMBER>
+    <CARD_TYPE>AmericanExpress</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>6011111100007756</CARD_NUMBER>
+    <CARD_TYPE>Discover</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>3601112345678789</CARD_NUMBER>
+    <CARD_TYPE>invalid</CARD_TYPE>
+    <MESSAGE>Invalid: Not a possible card number</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>5167894523129089</CARD_NUMBER>
+    <CARD_TYPE>MasterCard</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>4123456789123999</CARD_NUMBER>
+    <CARD_TYPE>Visa</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>377856341908126</CARD_NUMBER>
+    <CARD_TYPE>AmericanExpress</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>5367894523129089</CARD_NUMBER>
+    <CARD_TYPE>MasterCard</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>6011*890HJrt6789</CARD_NUMBER>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: non numeric characters</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER/>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: empty/null card number</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>0</CARD_NUMBER>
+    <CARD_TYPE>invalid</CARD_TYPE>
+    <MESSAGE>Invalid: Not a possible card number</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>4123 4567 89123</CARD_NUMBER>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: non numeric characters</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>4539.5787.6362.1486</CARD_NUMBER>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: non numeric characters</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>-45395787636214866</CARD_NUMBER>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: non numeric characters</MESSAGE>
+  </CARD>
+</CARDS>

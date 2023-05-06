@@ -1,0 +1,13 @@
+cardNumber,cardType,Message
+5567894523129089,MasterCard,Valid
+59012345678901234567890,Invalid,Invalid: more than 19 digits
+4123456789123,Visa,Valid
+347856341908126,AmericanExpress,Valid
+6011111100007756,Discover,Valid
+3601112345678789,invalid,Invalid: Not a possible card number
+5167894523129089,MasterCard,Valid
+4123456789123999,Visa,Valid
+377856341908126,AmericanExpress,Valid
+5367894523129089,MasterCard,Valid
+6011*890HJrt6789,Invalid,Invalid: non numeric characters
+,Invalid,Invalid: empty/null card number
