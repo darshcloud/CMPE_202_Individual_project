@@ -11,12 +11,12 @@ SJSU ID : 016668951 <br/>
 The Project can be run using the jar file located in the target folder
 
 ```bash
-java -jar .\target\creditcardvalidation-0.0.1-SNAPSHOT-jar-with-dependencies.jar inputFileName outputFileName
+java -jar .\creditcardvalidation\target\creditcardvalidation-0.0.1-SNAPSHOT-jar-with-dependencies.jar inputFileName outputFileName
 ```
 Sample Command
 
 ```bash
-java -jar .\target\creditcardvalidation-0.0.1-SNAPSHOT-jar-with-dependencies.jar input_file-1.json output_file-1.json
+java -jar .\creditcardvalidation\target\creditcardvalidation-0.0.1-SNAPSHOT-jar-with-dependencies.jar input_file-1.json output_file-1.json
 ```
 For a Fresh Build use the below command
 
