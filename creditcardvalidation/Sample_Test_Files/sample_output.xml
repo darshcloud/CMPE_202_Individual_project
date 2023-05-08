@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><CARDS>
+  <CARD>
+    <CARD_NUMBER>5410000000000000</CARD_NUMBER>
+    <CARD_TYPE>MasterCard</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>4120000000000</CARD_NUMBER>
+    <CARD_TYPE>Visa</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>341000000000000</CARD_NUMBER>
+    <CARD_TYPE>AmericanExpress</CARD_TYPE>
+    <MESSAGE>Valid</MESSAGE>
+  </CARD>
+  <CARD>
+    <CARD_NUMBER>6011*890HJrt6789</CARD_NUMBER>
+    <CARD_TYPE>Invalid</CARD_TYPE>
+    <MESSAGE>Invalid: non numeric characters</MESSAGE>
+  </CARD>
+</CARDS>

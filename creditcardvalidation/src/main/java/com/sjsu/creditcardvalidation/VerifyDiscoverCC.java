@@ -14,7 +14,7 @@ public class VerifyDiscoverCC implements CreditCardHandler {
 		if (creditCardNumber.matches("^6011\\d{12}$")) {
 			return "Discover";
 		} else {
-			return "invalid";
+			return "Invalid";
 		}
 	}
 

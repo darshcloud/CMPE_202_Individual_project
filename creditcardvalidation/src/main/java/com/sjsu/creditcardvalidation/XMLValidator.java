@@ -63,21 +63,24 @@ public class XMLValidator implements Validator {
 					String ccNumber = eElement.getElementsByTagName("CARD_NUMBER").item(0).getTextContent();
 					String expDate = eElement.getElementsByTagName("EXPIRATION_DATE").item(0).getTextContent();
 					String name = eElement.getElementsByTagName("CARD_HOLDER_NAME").item(0).getTextContent();
-					
+
 					if (ccNumber == null || ccNumber.isEmpty()) {
-						CreditCard e = new CreditCard(ccNumber, expDate, name, "Invalid", "Invalid: empty/null card number");
+						CreditCard e = new CreditCard(ccNumber, expDate, name, "Invalid",
+								"Invalid: empty/null card number");
 						list.add(e);
 						continue;
 					}
-					
-					if(ccNumber.length() > 19) {
-						CreditCard e = new CreditCard(ccNumber, expDate, name, "Invalid", "Invalid: more than 19 digits");
+
+					if (ccNumber.length() > 19) {
+						CreditCard e = new CreditCard(ccNumber, expDate, name, "Invalid",
+								"Invalid: more than 19 digits");
 						list.add(e);
 						continue;
 					}
 
 					if (!isNumeric(ccNumber)) {
-						CreditCard e = new CreditCard(ccNumber, expDate, name, "Invalid", "Invalid: non numeric characters");
+						CreditCard e = new CreditCard(ccNumber, expDate, name, "Invalid",
+								"Invalid: non numeric characters");
 						list.add(e);
 						continue;
 					}
