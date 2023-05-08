@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.sjsu.creditcardvalidation.AppTest" time="0.043" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.sjsu.creditcardvalidation.MasterCCTest" time="0" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\darshini\AppData\Local\Temp\surefire13994397856159385505\surefirebooter838399563902251632.jar C:\Users\darshini\AppData\Local\Temp\surefire13994397856159385505 2023-05-05T18-44-24_276-jvmRun1 surefire4099819717472947795tmp surefire_01550170923938302263tmp"/>
+    <property name="sun.java.command" value="C:\Users\darshini\AppData\Local\Temp\surefire4531940069776355368\surefirebooter8289027383962640262.jar C:\Users\darshini\AppData\Local\Temp\surefire4531940069776355368 2023-05-08T15-50-49_733-jvmRun1 surefire16647969353462315789tmp surefire_06838374052038974756tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Darshini_Files\CMPE_202_Individual_Project_Repo\individual-project-darshcloud\creditcardvalidation\target\test-classes;D:\Darshini_Files\CMPE_202_Individual_Project_Repo\individual-project-darshcloud\creditcardvalidation\target\classes;C:\Users\darshini\.m2\repository\com\opencsv\opencsv\3.3\opencsv-3.3.jar;C:\Users\darshini\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\darshini\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\darshini\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\darshini\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\darshini\AppData\Local\Temp\surefire13994397856159385505\surefirebooter838399563902251632.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\darshini\AppData\Local\Temp\surefire4531940069776355368\surefirebooter8289027383962640262.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.sjsu.creditcardvalidation.AppTest" time="0.001"/>
+  <testcase name="testConstructor" classname="com.sjsu.creditcardvalidation.MasterCCTest" time="0"/>
 </testsuite>
