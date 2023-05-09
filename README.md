@@ -7,6 +7,10 @@ Course Name : CMPE 202 - Software Systems Engineering<br/>
 Student Name : Darshini Venkatesha Murthy Nag <br/>
 SJSU ID : 016668951 <br/>
 
+## [Design Document PDF](https://github.com/gopinathsjsu/individual-project-darshcloud/blob/main/CMPE_202_IndividualProject_PartA%2BPartB.pdf)
+
+## [UML Diagrams](https://github.com/gopinathsjsu/individual-project-darshcloud/tree/main/Diagrams)
+
 ## Steps To Run Project
 The Project can be run using the jar file located in the target folder
 
