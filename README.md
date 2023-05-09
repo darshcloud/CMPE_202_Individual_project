@@ -11,6 +11,8 @@ SJSU ID : 016668951 <br/>
 
 ## [UML Diagrams](https://github.com/gopinathsjsu/individual-project-darshcloud/tree/main/Diagrams)
 
+## [Sample Test Files](https://github.com/gopinathsjsu/individual-project-darshcloud/tree/main/Sample_Test_Files)
+
 ## Steps To Run Project
 The Project can be run using the jar file located in the target folder
 
